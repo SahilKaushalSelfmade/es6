@@ -21,11 +21,32 @@ The value of b is ${b}`);
 // console.log(`This is my car whose brand is ${first} and ${last}`);
 
 //  object destructing
+/*
 const bioData = {
   name: "Sahil Kaushal",
   age: 21,
   deg: "Bca",
+  hobb: {
+    first: "Programming",
+  },
 };
 // let { name, age, deg } = bioData;
-let { name: myname, age, deg } = bioData;
-console.log(`My name is ${myname}`);
+let { name: myname, age, deg, hobb } = bioData;
+console.log(`My name is ${myname} & my hobby is ${hobb.first}`);
+*/
+
+// Fat arrow function
+/*
+var sun = function () {
+  var a = 5;
+  var b = 5;
+  return a + b;
+};
+console.log(sun());
+*/
+let sum = () => {
+  let a = 10;
+  let b = 153;
+  return a + b;
+};
+sum();
