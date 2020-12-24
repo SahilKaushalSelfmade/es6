@@ -26,5 +26,6 @@ const bioData = {
   age: 21,
   deg: "Bca",
 };
-let { name, age, deg } = bioData;
-console.log(`My name is ${name}`);
+// let { name, age, deg } = bioData;
+let { name: myname, age, deg } = bioData;
+console.log(`My name is ${myname}`);
